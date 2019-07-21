@@ -20,43 +20,45 @@ body {
   min-height: 100vh;
 }
 
-.pwa__box {
+.glass {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-.glass__image {
-  position: relative;
-}
-
-.glass__counter {
-  font-family: 'Roboto', sans-serif;
-  color: black;
-  font-size: 112px;
-  line-height: 131px;
-  position: fixed;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.glass__button {
-  margin-top: 50px;
-  border: none;
-  &--add {
-  font-weight: bold;
-  padding: 0 50px;
-  line-height: 40px;
-  border-radius: 6px;
-  background-color: #fff;
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3)
-
+  &__image {
+    position: relative;
   }
-
-  &--remove {
-    background: transparent;
-    color: white;
+  
+  &__counter {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 112px;
+    line-height: 131px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  &__button {
+    margin-top: 50px;
+    border: none;
+    &--add {
+    font-weight: bold;
+    padding: 0 50px;
+    line-height: 40px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3)
+  
+    }
+  
+    &--remove {
+      background: transparent;
+      color: white;
+    }
   }
 }
+
+
