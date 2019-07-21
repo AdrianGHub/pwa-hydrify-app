@@ -12,5 +12,11 @@ html {
 
 body {
   color: $yellow;
-  background: $violet;
+  background: $bgBlue;
+  overflow: hidden;
+}
+
+.pwa__image {
+  display: block;
+  margin: 0 auto;
 }
