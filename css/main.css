@@ -317,6 +317,11 @@ html {
 
 body {
   color: #F9C802;
-  background: #000; }
+  background: #3767AD;
+  overflow: hidden; }
+
+.pwa__image {
+  display: block;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
