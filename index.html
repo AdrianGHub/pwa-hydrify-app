@@ -38,16 +38,27 @@
       type="image/png"
       href="assets/pwa/icons/icon-192x192.png"
     />
-
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <main class="pwa">
-      <img
-        class="pwa__image"
-        src="assets/img/water-glass.svg"
-        alt="Svg icon with a glass of water."
-      />
+      <div class="pwa__box">
+        <img
+          class="glass__image"
+          src="assets/img/water-glass.svg"
+          alt="Svg icon with a glass of water."
+        />
+        <h2 class="glass__counter">0</h2>
+        <button class="glass__button glass__button--add">dodaj szklankę</button>
+        <button class="glass__button glass__button--remove">
+          usuń szklankę
+        </button>
+      </div>
     </main>
     <script src="js/main.js"></script>
   </body>
