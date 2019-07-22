@@ -331,7 +331,7 @@ body {
   overflow: hidden;
   min-height: 100vh; }
 
-.pwa__box {
+.glass {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -345,34 +345,32 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-
-.glass__image {
-  position: relative; }
-
-.glass__counter {
-  font-family: 'Roboto', sans-serif;
-  color: black;
-  position: absolute;
-  font-size: 112px;
-  line-height: 131px;
-  left: 45.53%;
-  bottom: 34.89%; }
-
-.glass__button {
-  margin-top: 50px;
-  border: none; }
-
-.glass__button--add {
-  font-weight: bold;
-  padding: 0 50px;
-  line-height: 40px;
-  border-radius: 6px;
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3); }
-
-.glass__button--remove {
-  background: transparent;
-  color: white; }
+  .glass__image {
+    position: relative; }
+  .glass__counter {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 112px;
+    line-height: 131px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+  .glass__button {
+    margin-top: 50px;
+    border: none; }
+    .glass__button--add {
+      font-weight: bold;
+      padding: 0 50px;
+      line-height: 40px;
+      border-radius: 6px;
+      background-color: #fff;
+      -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+              box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3); }
+    .glass__button--remove {
+      background: transparent;
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */
