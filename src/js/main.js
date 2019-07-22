@@ -29,6 +29,7 @@ const value = document.querySelector(".glass__counter--js");
 const addButton = document.querySelector(".glass__button--add-js");
 const removeButton = document.querySelector(".glass__button--remove-js");
 
+// key variable with current date storage
 const key = new Date().toISOString().slice(0, 10);
 
 // LOCAL STORAGE
